@@ -1,0 +1,357 @@
+html{
+    font-size: 62.5%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.main-body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.body{
+    flex: 100%;
+    height: 100vh;
+    background-color: #F4F4F4;
+}
+.navber{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 1%;
+    
+}
+.navber_body{
+    flex: 35%;
+
+    
+}
+.lift_nav{
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    top: 5%;
+    float: left;
+    
+}
+.lift_nav h1{
+    
+    font-family: Uni Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.6rem;
+    line-height: 35px;
+    color: #3A494E;
+}
+.lift_nav a{
+    position: relative;
+    padding-left: 2%;
+    top: 10%;
+    left: -2%;
+    
+    font-family: Uni Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #737373;
+    
+}
+a.active,a:hover{
+    color: #AE2525;
+}
+.lift_nav img{
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: -2%;
+
+}
+.right_nav{
+    float: right;
+    flex: 52%;
+    
+    
+    
+}
+.right_nav Button{
+    font-family: Uni Neue;
+    font-style: normal;
+    font-size: 1.4rem;
+    line-height:1.8rem;
+    text-align: center;
+    color: #696969;
+    
+    
+    margin: 1rem;
+    width: 20rem;
+    height: 4rem;
+    position: relative;
+    right: 6%;
+    float: right;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.right_nav Button:hover{
+    background-color:  #AE2525;
+}
+.BlockOut {
+    float: right;
+    font-size: 2rem;
+    padding-right: .2rem;
+}
+.body_viwe{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.body_nav{
+    width: 95%;
+    height: 13vh;
+    margin: auto;
+    background-color:#FFFFFF;
+}
+.lift_navber Button{
+    float: left;
+    width: 20rem;
+    height: 3.7rem;
+    font-family: Uni Neue;
+    font-style: normal;
+    color: #777171;
+    font-size: 1.3rem;
+    margin-top: 3%;
+    margin-left: 2%;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.lift_navber Button:hover{
+    background-color:  #AE2525;
+    color: #FFFFFF;
+}
+.DownOut {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: bold;
+   padding-left: 1rem;
+   
+}
+.right_navber {
+    margin-right: 3%;
+}
+.right_navber Button{
+    float: right;
+    width: 18rem;
+    height: 3.7rem;
+    font-weight: bold;
+    font-family: Uni Neue;
+    font-style: normal;
+    text-align: center;
+    color: #696969;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+    margin-top: 3%;
+    margin-left: 2%;
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.right_navber Button:hover{
+    background-color:  #AE2525;
+    color: #FFFFFF;
+}
+.PlusCircleOut {
+    float: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+   text-align: right;
+  
+   
+   
+}
+.body_card{
+    margin-top: 15%;
+    width: 95%;
+    height:auto;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card{
+    flex: 45%;
+    
+    justify-content: center;
+    background: #F8FCFD;
+    margin-right: 2%;
+    margin-left: 2%;
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.25));
+    border-radius: 5px;
+    
+    margin-bottom: 10%;
+}
+.lift_card{
+    float: left;
+    width: 45%;
+    height: auto;
+    
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-top: 4rem;
+}
+.lift_card h4{
+    font-family: Uni Neue;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 24px;
+    
+
+    color: #44B4DB;
+
+    }
+.lift_card  p{
+    font-family: Uni Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    float: left;
+    width: 54px;
+     height: 20px;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 1%;
+    background: #B3B3B3;
+    border-radius: 65px;
+    color: #FFFFFF;
+}
+.lift_card h3{
+    font-family: Uni Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+
+    color: #3A494E;
+
+}
+.right_card{
+    float: right;
+    width: 45%;
+    
+    padding-left: 3rem;
+    
+}
+.card_img img{
+    width: 15%;
+    height: 3%;
+    margin-top: 4rem;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.right_card h1{
+    font-family: Uni Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: #3A494E;
+}
+.right_card Button{
+    float: left;
+    width: 17rem;
+    height: 3.7rem;
+    font-weight: bold;
+    font-family: Uni Neue;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    
+    font-size: 1.7rem;
+    
+    background: #AE2525;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.PlusSquareOut {
+    float: left;
+   font-size: 1.8rem;
+   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    html{
+        font-size: 55%;
+    }
+    
+  }
+  
+@media (max-width: 909px) {
+
+    html{
+        font-size: 45%;
+    }
+    .body_card{
+        
+        flex-direction: column;
+    }
+    .card{
+        flex: 100%;
+       
+    }
+    
+  }
+  
+@media (max-width: 600px) {
+    html{
+        font-size: 40%;
+    }
+   
+    
+}

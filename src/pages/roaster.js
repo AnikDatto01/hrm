@@ -20,8 +20,8 @@ function Roaster() {
                         <Nav/>
                         <div className="body_card">
                             
-                            <Card/>
-                            <Card/>
+                            <Card name="General" time="10:00 AM  -  06:00 PM" day1="Sat" day2="Sun" day3="Mon" roaNum="ROASTER 01" depertment="ENGINEERING DEPARTMENT" />
+                            <Card name="General" time="08:00 AM  -  04:00 PM" day1="Tues" day2="Wed" day3="Thu" roaNum="ROASTER 02" depertment="Marketing Department" />
                             
                         </div>
                 </div>

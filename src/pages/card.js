@@ -7,16 +7,17 @@ import img1 from '../icon/1.png';
 import { Button, Radio } from 'antd';
 import { DownloadOutlined ,BlockOutlined,CalendarOutlined,DownOutlined,PlusCircleOutlined,PlusSquareOutlined} from '@ant-design/icons';
 import 'antd/dist/antd.css';
-function Card() {
+function Card(props) {
+    console.log(props);
     return (
         <div className="card">
                                 <div className="lift_card">
-                                    <h4>General</h4>
-                                    <h4>10:00 AM  -  06:00 PM</h4>
-                                    <p>Sat</p>
-                                    <p>Sun</p>
-                                    <p>Mon</p><br/><br/>
-                                    <h3>ROASTER 01</h3>
+                                    <h4>{props.name}</h4>
+                                    <h4>{props.time}</h4>
+                                    <p>{props.day1}</p>
+                                    <p>{props.day2}</p>
+                                    <p>{props.day3}</p><br/><br/>
+                                    <h3>{props.roaNum}</h3>
                                 </div>
                                 <div className="right_card">
                                     <div className="card_img">
@@ -26,7 +27,7 @@ function Card() {
                                         <img style={{marginLeft:"-15px"}} src={img9}/>
                                         
                                     </div>
-                                    <h1>Engineering <br/>Department</h1>
+                                    <h1>{props.depertment}</h1>
                                     <Button type="primary"  > Add Employee<div  className="PlusSquareOut" ><PlusSquareOutlined /></div> </Button >
                                     
                                 </div>

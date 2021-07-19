@@ -53,9 +53,9 @@ html{
     line-height: 35px;
     color: #3A494E;
 }
-.lift_nav a{
+.lift_manu a{
     position: relative;
-    padding-left: 2%;
+    margin-left: 4%;
     top: 10%;
     left: -2%;
     
@@ -70,7 +70,7 @@ html{
 a.active,a:hover{
     color: #AE2525;
 }
-.lift_nav img{
+.lift_manu img{
     position: absolute;
     width: 1.8rem;
     height: 1.8rem;
@@ -629,25 +629,152 @@ padding-bottom: 1.5rem;
 .roaster_button Button:hover{
     background-color:  #AE2525;
 }
+.body_lonenav{
+    width: 95%;
+    height: 6vh;
+    margin: auto;
+    background-color:#FFFFFF;
+    border-bottom: 1px solid #E2E2E2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.lift_lonenav{
+    flex: 30%;
+    height: 10vh;
+    height: 6vh;
+    float: left;
+    
+}
+.lift_lonenav h1{
+    font-size: 1.8rem;
+    font-family: Uni Neue;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 24px;
+    color: #3A494E;
+    margin: 1.5rem;
+}
 
+.right_lonenav {
+    margin-right: 3%;
+    flex: 60%;
+    height: 6vh;
+    float: right;
+    
+}
+.right_lonenav Button{
+    float: right;
+    width: 14.7rem;
+    height: 3.7rem;
+    font-weight: bold;
+    font-family: Uni Neue;
+    font-style: normal;
+    text-align: center;
+    color: #34A852;
+    
+    padding-top: .7rem;
+    font-size: 1.3rem;
+    margin-top: 1.5%;
+    margin-left: 2%;
+    background: #FFFFFF;
+    border: 1px solid #34A852;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 
+}
+.right_lonenav Button:hover{
+    background-color:  #AE2525;
+    color: #34A852;
+}
 
+.PlusCircleOu {
+    float: left;
+    font-size: 1.7rem;
+    font-weight: bold;
+   color: #34A852;
+  
+   
+   
+}
+.loneform_input{
+    width: 95%;
+    height: auto;
+    margin: auto;
+    
+}
+.input_body11{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    
+    margin-top: 1.6rem;
+}
+.loneform_input label{
+    margin-right: 10rem;
+    width: 20rem;
+    height: 19px;
+    font-family: Uni Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: #777171;
+    position: relative;
+}
+.loneform_input input{
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 30rem;
+    height: 3rem;
+    
+}
 
+.loneform_input select{
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 30rem;
+    height: 3rem;
+    color: #777171;
+    
 
+}
 
+.loneform_input TextArea {
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    box-sizing: border-box;
+    border-radius: 2px;
+    width: 30rem;
+    height: 1rem;
+    color: #777171;
+}
 
+.loneform_button{
+    width: 30rem;
+    height: auto;
+    padding-bottom: 3rem;
+    position: relative;
+    left: 17rem;
+    margin-top: 1rem;
+}
+.loneform_button Button{
+    width: 13rem;
+    height: 3rem;
+    margin: 1rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 

@@ -10,7 +10,7 @@ function Roaster() {
         <div className="main_body">
             <div className="body">
             
-               <Nevber/>
+               <Nevber title="Human Resource" path1="Home"/>
                 <div className="body_viwe">
                         <Nav/>
                         <div className="body_card">

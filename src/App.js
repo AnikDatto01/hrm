@@ -1,8 +1,9 @@
 import './App.css';
-import Roaster from './pages/roaster'
+import Lone from './pages/lone';
+import Roaster from './pages/lone'
 function App() {
   return (
-    <Roaster/>
+    <Lone/>
   );
 }
 

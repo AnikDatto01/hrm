@@ -3,27 +3,31 @@ import img1 from '../icon/1.png';
 import { Button, Radio } from 'antd';
 import { DownloadOutlined ,BlockOutlined,CalendarOutlined,DownOutlined,PlusCircleOutlined,PlusSquareOutlined} from '@ant-design/icons';
 import 'antd/dist/antd.css';
-function Navber() {
+function Navber(props) {
+    console.log(props);
     return (
         <div className="navber">
                     
         <div className="navber_body">
      
         <div className="lift_nav">
-            <h1 >Human Resource</h1>
+            <h1>{props.title}</h1>
+            
             <div className="lift_manu">
-                <a href="">Home</a>
+                <a href="">{props.path1}</a>
                 <img src={img1}/>
-                <a href="">Human Resource</a>
+                <a href="">{props.path2}</a>
                 <img src={img1}/>
-                <a className="active" href="">Roaster</a>
+                <a className="" href="">{props.path3}</a>
+                <img src={img1}/>
+                <a className="active" href="">{props.path4}</a>
+
             </div>
         </div>
         </div>
         <div className="right_nav">
         
-        <Button type="primary" >Manage Attendance<div  className="BlockOut" ><CalendarOutlined /></div></Button>
-        <Button type="primary"  > Balk Check In<div  className="BlockOut" ><BlockOutlined/></div> </Button >
+        
             
         </div>
     </div>
